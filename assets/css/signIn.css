@@ -45,6 +45,9 @@ body{
     color: var(--form-field-placeholder);
     font-size: 1rem;
 }
+.login__buttons {
+    display: flex;
+}
 .button__login{
     padding: 16px 40px;
     letter-spacing: 3px;
@@ -52,4 +55,10 @@ body{
 }
 .button__passwordlink{
     margin-left: 24px;
+}
+@media screen and (max-width: 460px){
+    .button__login{
+        padding: 16px 20px;
+        
+    }
 }
